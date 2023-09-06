@@ -2952,6 +2952,130 @@
   content: "\ea6d";
 }
 
+.mxwc-state-badge {
+  border-radius: 16px;
+  min-width: 18px;
+  min-height: 18px;
+  padding: 4px 8px 4px 8px;
+  color: white;
+  white-space: nowrap;
+  display: block;
+  width: fit-content;
+}
+.mxwc-state-badge.mxwc-state-badge-success {
+  background: #00875d;
+}
+.mxwc-state-badge.mxwc-state-badge-primary {
+  background: #244a63;
+}
+.mxwc-state-badge.mxwc-state-badge-warning {
+  background: #bf5706;
+}
+.mxwc-state-badge.mxwc-state-badge-danger {
+  background: #cd001e;
+}
+.mxwc-state-badge.mxwc-state-badge-default {
+  color: #4a4a4a;
+  background: #d9d9d9;
+}
+
+.mxwc-timeline-dot {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+}
+.mxwc-timeline-dot.mxwc-timeline-dot-success {
+  background: #00875d;
+}
+.mxwc-timeline-dot.mxwc-timeline-dot-primary {
+  background: #244a63;
+}
+.mxwc-timeline-dot.mxwc-timeline-dot-warning {
+  background: #bf5706;
+}
+.mxwc-timeline-dot.mxwc-timeline-dot-danger {
+  background: #cd001e;
+}
+.mxwc-timeline-dot.mxwc-timeline-dot-default {
+  background: #d9d9d9;
+}
+
+.mxwc-trancating-groupbox.mx-groupbox {
+  display: grid;
+  border: none;
+}
+.mxwc-trancating-groupbox.collapsed .mx-groupbox-header {
+  color: #4a4a4a;
+}
+.mxwc-trancating-groupbox .mx-groupbox-header {
+  grid-area: 1/1/2/2;
+  background: none;
+  border: none;
+  padding: 0;
+  color: transparent;
+}
+.mxwc-trancating-groupbox .mx-groupbox-header .glyphicon {
+  font-size: 200%;
+  color: #4a4a4a;
+}
+.mxwc-trancating-groupbox .mx-groupbox-body {
+  grid-area: 1/1/2/2;
+  border: none;
+  background: none;
+  padding: 0 35px 0 0;
+}
+
+.mx-listview[class*=lv-col] > ul {
+  flex-wrap: wrap;
+}
+
+.mxwc-dv-footer-remove-border > .mx-dataview-controls {
+  border-top: 0;
+}
+
+.mxwc-jump-to-popup {
+  min-width: 800px;
+}
+.mxwc-jump-to-popup .mx-image {
+  max-width: 32px;
+}
+.mxwc-jump-to-popup .mxwc-img-activity-placeholder {
+  opacity: 0.3;
+}
+
+.mxwc-jump-to-activity-selector select {
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mxwc-lv-attachments .mx-listview-empty {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .mxwc-wiio-header {
+    position: sticky;
+    top: 0px;
+    margin-top: -32px;
+    padding-top: 32px;
+    z-index: 2;
+    background-color: #f6fafc;
+  }
+
+  .mxwc-wiio-list {
+    position: sticky;
+    top: 137px;
+  }
+  .mxwc-wiio-list .mxwc-wiio-dropdownfilter select.form-control {
+    width: 100%;
+  }
+
+  .mxwc-wiio-detail {
+    position: sticky;
+    top: 169px;
+  }
+}
 /*!
  * Bootstrap v3.3.4 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -29173,6 +29297,10 @@ table.table-rwd.mx-table > tbody > tr td .table-rwd-title {
 }
 .wizard-arrow .wizard-step-active .wizard-step-text {
   color: #fff;
+}
+
+.red-button {
+  background-color: red;
 }
 
 /*# sourceMappingURL=theme.compiled.css.map */
