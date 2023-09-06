@@ -1,0 +1,17 @@
+// -----------------------------------------------------------------------------
+// Base
+// -----------------------------------------------------------------------------
+
+::selection {
+  background-color: $global-brand-primary;
+  color: $global-brand-white;
+}
+
+a:hover,
+a:focus {
+  color: $link-hover-color;
+}
+
+a:focus {
+  outline: none;
+}

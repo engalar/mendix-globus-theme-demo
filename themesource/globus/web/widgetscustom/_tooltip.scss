@@ -1,0 +1,20 @@
+// -----------------------------------------------------------------------------
+// Tooltip - widgets custom
+// -----------------------------------------------------------------------------
+
+.widget-tooltip {
+  .widget-tooltip-content {
+    padding: ($spacing-small / 2) ($spacing-medium / 2);
+    line-height: 1.25;
+    background-color: $global-brand-white;
+    color: $global-brand-text-default;
+    border-radius: $border-radius-default;
+    box-shadow: 0 2px 8px 0 rgba($global-brand-black, 0.08);
+    font-size: $font-size-small;
+    font-weight: $font-weight-normal;
+  }
+}
+
+.widget-tooltip-trigger {
+  display: inline-block;
+}

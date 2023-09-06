@@ -1,0 +1,31 @@
+// -----------------------------------------------------------------------------
+// Breadcrumbs
+// -----------------------------------------------------------------------------
+
+.breadcrumb {
+  margin-bottom: $spacing-medium;
+}
+
+.breadcrumb-item {
+  &:last-child {
+    color: $global-brand-text-secondary;
+    cursor: default;
+    text-decoration: none;
+  }
+
+  & + .breadcrumb-item {
+    &::before {
+      color: $global-brand-text-secondary;
+      padding: 0 ($spacing-small / 2);
+    }
+  }
+}
+
+.breadcrumb-large {
+  font-size: $font-size-large;
+}
+
+.breadcrumb-underline {
+  border-color: $global-brand-default;
+  padding-bottom: $spacing-small;
+}

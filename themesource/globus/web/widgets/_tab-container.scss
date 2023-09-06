@@ -1,0 +1,19 @@
+// -----------------------------------------------------------------------------
+// Tabcontainer - widgets
+// -----------------------------------------------------------------------------
+
+.mx-tabcontainer {
+  .mx-tabcontainer-tabs {
+    & > li > a {
+      padding: ($spacing-small / 2) $spacing-small;
+      transition: none;
+
+      &:hover,
+      &:focus {
+        background-color: $global-brand-gray-tint;
+        border-color: transparent;
+        color: $global-brand-text-secondary;
+      }
+    }
+  }
+}

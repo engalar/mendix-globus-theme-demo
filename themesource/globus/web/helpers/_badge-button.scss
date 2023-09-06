@@ -1,0 +1,16 @@
+// -----------------------------------------------------------------------------
+// Badge Buttons - helpers
+// -----------------------------------------------------------------------------
+
+.btn-sm {
+  .badge {
+    padding: 2px 8px;
+  }
+}
+
+.btn-secondary,
+.btn-default {
+  .badge {
+    background-color: $global-brand-link;
+  }
+}

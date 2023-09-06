@@ -1,0 +1,15 @@
+// -----------------------------------------------------------------------------
+// Dataview - widgets
+// -----------------------------------------------------------------------------
+
+.mx-dataview {
+  .mx-dataview-controls {
+    display: flex;
+    justify-content: flex-end;
+    gap: $spacing-smaller;
+
+    .mx-button {
+      margin: 0;
+    }
+  }
+}

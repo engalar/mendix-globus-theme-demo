@@ -1,0 +1,51 @@
+// -----------------------------------------------------------------------------
+// Radio Button - widgets
+// -----------------------------------------------------------------------------
+
+.radio {
+  margin-bottom: $spacing-smaller * 1.5;
+
+  & + & {
+    margin-top: 0;
+  }
+}
+
+.mx-radiobuttons {
+  .radio {
+    input[type="radio"] {
+      margin: 0;
+
+      &.disabled,
+      &[disabled] {
+        opacity: 1;
+      }
+    }
+  }
+
+  &.inline {
+    .mx-radiogroup {
+      .radio {
+        margin: 0 $spacing-small 0 0;
+      }
+    }
+  }
+}
+
+input[type="radio"] {
+  &:focus {
+    outline: none;
+  }
+
+  &::after {
+    height: 50%;
+    width: 50%;
+  }
+
+  &:checked:disabled:before {
+    border-color: $form-input-border-color;
+  }
+
+  &:checked:disabled:after {
+    background-color: $form-input-border-color;
+  }
+}

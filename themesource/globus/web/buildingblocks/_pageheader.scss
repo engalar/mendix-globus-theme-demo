@@ -1,0 +1,22 @@
+// -----------------------------------------------------------------------------
+// Pageheader
+// -----------------------------------------------------------------------------
+
+.pageheader {
+  border-bottom: 1px solid $border-color-default;
+  margin-bottom: $spacing-medium;
+  padding-bottom: $spacing-medium;
+
+  .pageheader-title {
+    margin: 0;
+
+    & + .pageheader-subtitle {
+      line-height: 20px;
+      margin: $spacing-small / 2 0 0;
+    }
+  }
+
+  .form-group {
+    margin-bottom: 0;
+  }
+}
